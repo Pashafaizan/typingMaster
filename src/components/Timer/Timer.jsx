@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 
 function Timer({ state, timerComplete }) {
-    const [counter, setCounter] = useState(5);
+    const [counter, setCounter] = useState(60);
     function trigerTimer() {
       setTimeout(() => {
         if (counter == 0) {
