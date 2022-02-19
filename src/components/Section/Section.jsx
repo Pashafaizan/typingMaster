@@ -16,7 +16,6 @@ function Result({ speed }) {
           <button
             style={{ padding: "5px 10px", marginTop: 10, cursor: "pointer" }}
             onClick={() => {
-              console.log("SUHAIL");
               window.location.reload();
             }}
           >
